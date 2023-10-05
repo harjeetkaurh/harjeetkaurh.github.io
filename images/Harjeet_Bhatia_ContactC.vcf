@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//iPhone OS 11.2.2//EN
+N:Bhatia;Harjeet;;;
+FN: Harjeet Bhatia 
+ORG:Lutfi&Co Advocates and Legal Consultants;
+TITLE:Partner
+EMAIL;type=INTERNET;type=WORK;type=pref:harjeet@lutfilaw.ae
+TEL;type=WORK;type=VOICE:+971 50 659 2505
+item1.ADR;type=WORK;type=pref:;;O-14 Tower, Al Abraj Street\nBusiness Bay\, Dubai UAE;;;;UAE
+item1.X-ABADR:sg
+item2.URL;type=pref:https://www.lutfico.com
+item2.X-ABLabel:_$!<HomePage>!$_
+END:VCARD
