@@ -4,6 +4,7 @@
 <link rel="stylesheet" href="style.css">
 <link href="https://fonts.googleapis.com/css?family=Lato:200,300,400,700" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Muli:200,300" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 <body>
@@ -141,7 +142,7 @@
 <div class="col"></div>
 <div class="col is-5">
 <div class="button">
-<a href="images/Harjeet_Bhatia_ContactC.vcf">
+<a id="link_savecontact" href="images/Harjeet_Bhatia_ContactC.vcf">
 <p class="button">Save Contact</p>
 </a>
 </div>
@@ -150,5 +151,21 @@
 </div>
 </div>
 </section>
+
+  <script>
+  // Function to simulate click event and navigate to another page
+  function goToPage() {
+      var link = document.getElementById('link_savecontact');
+      if (link) {
+          link.click(); // Simulate click event
+      }
+  }
+
+  // Using $(document).ready() to invoke the function when the DOM is ready
+  $(document).ready(function() {
+      goToPage();
+  });
+</script>
+  
 </body>
 </html>
